@@ -1,14 +1,11 @@
 <!--
-  Plugin descriptor for the DITA Community media domain 
+  Plugin descriptor for the DITA Community media domain doctypes
 
-  Copyright (c) 2012 DITA For Publishers, 2014 DITA Community
+  Copyright (c) 2012 DITA For Publishers, 
+  Copyright (c) 2014 DITA Community
 
   Defines an element domain for video and audio inclusion markup.
-  
-  Implements HTML rendering for the media domain.
   -->
-<plugin id="org.dita-community.media-d">
-  <require plugin="org.dita-community.common.html"/>
-  <feature extension="dita.xsl.xhtml" value="xsl/media-d2html.xsl" type="file"/>
+<plugin id="org.dita-community.media-d.doctypes">
   <feature extension="dita.specialization.catalog.relative" value="catalog.xml" type="file"/>
 </plugin>
