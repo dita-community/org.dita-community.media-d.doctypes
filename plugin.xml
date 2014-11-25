@@ -7,5 +7,9 @@
   Defines an element domain for video and audio inclusion markup.
   -->
 <plugin id="org.dita-community.media-d.doctypes">
+  
+  <feature extension="package.support.name" value="Eliot Kimber"/>
+  <feature extension="package.support.email" value="ekimber@contrext.com"/>  
+  
   <feature extension="dita.specialization.catalog.relative" value="catalog.xml" type="file"/>
 </plugin>
